@@ -6,7 +6,7 @@ import datetime as dt
 import matplotlib.pyplot as plt
 from statistics import mean
 from collections import deque
-cap = cv2.VideoCapture("rtsp://10.50.119.124:554/axis-media/media.amp")
+cap = cv2.VideoCapture("")
 
 
 
