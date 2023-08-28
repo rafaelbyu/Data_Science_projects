@@ -21,7 +21,7 @@ test = testings.test_class()
 cv2.namedWindow("as", cv2.WINDOW_NORMAL)
 while True:
     # try:
-    frame = cv2.imread("strugkaphone.jpg")
+    frame = cv2.imread("")
     frame = cv2.resize(frame, (int(frame.shape[1] / 2), int(frame.shape[0] / 2)), cv2.INTER_AREA)
 
     cv2.imshow("frame", frame)
