@@ -13,7 +13,7 @@ from tqdm import tqdm
 
 
 
-# veldf = pd.read_csv('velocity_slabdata.csv')
+# veldf = pd.read_csv('')
 #
 # velocity = veldf.iloc[:, 0].values
 # data_time = pd.to_datetime(veldf.iloc[:, 1], format='%Y-%m-%d %H:%M:%S.%f')
@@ -66,8 +66,8 @@ from tqdm import tqdm
 #     if __name__ == "__main__":
 #         app.run_server(debug=True)
 """Убрал пустые места на графике, иначе интерполяция с ума сходит"""
-# df = pd.read_csv("Dataslab/merged_iba_slabdata_2023-08-17_10.csv")
-df_1 = pd.read_csv("slab_tracking_script/Data_tracking_csv_fixed_22/slabdataMetrALL_22.csv")
+# df = pd.read_csv("")
+df_1 = pd.read_csv("")
 
 
 # slab = df.iloc[:, 3]
@@ -101,7 +101,7 @@ data_x = pd.to_datetime(df_1.iloc[:, 0], format='%Y-%m-%d %H:%M:%S.%f')
 #         slabdata = pd.DataFrame([[velocity, data_x[i]]], columns=['velocity', 'current time'])
 #         slabdata.to_csv('velocity_slabdata1.csv', mode='a', index=False)
 
-# df_vel = pd.read_csv('velocity_slabdata1.csv')
+# df_vel = pd.read_csv('')
 # velocity_count = df_vel.iloc[:, 0]
 # data_x_vel = pd.to_datetime(df_vel.iloc[:, 1], format='%Y-%m-%d %H:%M:%S.%f')
 
