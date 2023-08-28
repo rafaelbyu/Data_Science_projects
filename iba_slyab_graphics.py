@@ -10,11 +10,11 @@ df = pd.read_csv(
 )
 
 df2 = pd.read_csv(
-    "slabdata2023-08-03_16_0.csv"
+    ""
 )
 
 
-xx = pd.to_datetime(df2['current time'], format='%Y-%m-%d %H:%M:%S.%f')
+xx = pd.to_datetime(df2[''], format='%Y-%m-%d %H:%M:%S.%f')
 yy = df2['ylist'].values
 data_xx = xx.astype('int64') // 10 ** 9
 
@@ -49,11 +49,11 @@ def display_(radio_value):
 
     # Add traces
     fig.add_trace(
-        go.Scatter(x=data_x, y=data_y, name="iba_file"),
+        go.Scatter(x=data_x, y=data_y, name=""),
     )
 
     fig.add_trace(
-        go.Scatter(x=xx, y=yy, name="slabdata2023-08-03_16_0.csv"),
+        go.Scatter(x=xx, y=yy, name=""),
     )
 
     # Set x-axis title
